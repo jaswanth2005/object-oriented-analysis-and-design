@@ -1,0 +1,506 @@
+#include "account.h"
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+
+
+
+
+
+
+
+
+
+
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
+
+#include <string>
+
+/**
+  * class account
+  * 
+  */
+
+/******************************* Abstract Class ****************************
+account does not have any pure virtual methods, but its author
+  defined it as an abstract class, so you should not use it directly.
+  Inherit from it instead and create only objects from the derived classes
+*****************************************************************************/
+
+class account
+{
+public:
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   * @return string
+   */
+  virtual string customer_id ()
+  {
+  }
+
+
+  /**
+   * @return string
+   */
+  virtual string address ()
+  {
+  }
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+
+
+};
+
+#endif // ACCOUNT_H
+
+
+
+
+
+
+
+
+
+#include "customer.h"
+
+// Constructors/Destructors
+//  
+
+customer::customer () {
+initAttributes();
+}
+
+customer::~customer () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void customer::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CUSTOMER_H
+#define CUSTOMER_H
+
+#include <string>
+
+/**
+  * class customer
+  * 
+  */
+
+class customer
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  customer ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~customer ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void login ()
+  {
+  }
+
+
+  /**
+   */
+  void change_profile ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string name;
+  string shipping_address;
+  int customer_id;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of shipping_address
+   * @param new_var the new value of shipping_address
+   */
+  void setShipping_address (string new_var)   {
+      shipping_address = new_var;
+  }
+
+  /**
+   * Get the value of shipping_address
+   * @return the value of shipping_address
+   */
+  string getShipping_address ()   {
+    return shipping_address;
+  }
+
+  /**
+   * Set the value of customer_id
+   * @param new_var the new value of customer_id
+   */
+  void setCustomer_id (int new_var)   {
+      customer_id = new_var;
+  }
+
+  /**
+   * Get the value of customer_id
+   * @return the value of customer_id
+   */
+  int getCustomer_id ()   {
+    return customer_id;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CUSTOMER_H
+
+
+
+
+
+
+
+
+
+
+#include "receipients.h"
+
+// Constructors/Destructors
+//  
+
+receipients::receipients () {
+initAttributes();
+}
+
+receipients::~receipients () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void receipients::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef RECEIPIENTS_H
+#define RECEIPIENTS_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class receipients
+  * 
+  */
+
+class receipients
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  receipients ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~receipients ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void verify ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string request;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of request
+   * @param new_var the new value of request
+   */
+  void setRequest (string new_var)   {
+      request = new_var;
+  }
+
+  /**
+   * Get the value of request
+   * @return the value of request
+   */
+  string getRequest ()   {
+    return request;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // RECEIPIENTS_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
