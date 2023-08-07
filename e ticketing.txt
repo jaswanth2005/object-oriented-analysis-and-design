@@ -1,0 +1,621 @@
+#include "central_mangement.h"
+
+// Constructors/Destructors
+//  
+
+central_mangement::central_mangement () {
+initAttributes();
+}
+
+central_mangement::~central_mangement () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void central_mangement::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CENTRAL_MANGEMENT_H
+#define CENTRAL_MANGEMENT_H
+
+#include <string>
+
+/**
+  * class central_mangement
+  * 
+  */
+
+class central_mangement
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  central_mangement ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~central_mangement ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void reservation_ ()
+  {
+  }
+
+
+  /**
+   */
+  void cancellation ()
+  {
+  }
+
+
+  /**
+   */
+  void status ()
+  {
+  }
+
+
+  /**
+   */
+  void login ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string train_name;
+  string passanger_name;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of train_name
+   * @param new_var the new value of train_name
+   */
+  void setTrain_name (string new_var)   {
+      train_name = new_var;
+  }
+
+  /**
+   * Get the value of train_name
+   * @return the value of train_name
+   */
+  string getTrain_name ()   {
+    return train_name;
+  }
+
+  /**
+   * Set the value of passanger_name
+   * @param new_var the new value of passanger_name
+   */
+  void setPassanger_name (string new_var)   {
+      passanger_name = new_var;
+  }
+
+  /**
+   * Get the value of passanger_name
+   * @return the value of passanger_name
+   */
+  string getPassanger_name ()   {
+    return passanger_name;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_MANGEMENT_H
+
+
+
+
+
+
+
+
+
+
+
+#include "passanger.h"
+
+// Constructors/Destructors
+//  
+
+passanger::passanger () {
+initAttributes();
+}
+
+passanger::~passanger () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void passanger::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+#ifndef PASSANGER_H
+#define PASSANGER_H
+
+#include <string>
+
+/**
+  * class passanger
+  * 
+  */
+
+class passanger
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  passanger ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~passanger ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void login ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string passanger_name;
+  int passanger_age;
+  int train_no;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of passanger_name
+   * @param new_var the new value of passanger_name
+   */
+  void setPassanger_name (string new_var)   {
+      passanger_name = new_var;
+  }
+
+  /**
+   * Get the value of passanger_name
+   * @return the value of passanger_name
+   */
+  string getPassanger_name ()   {
+    return passanger_name;
+  }
+
+  /**
+   * Set the value of passanger_age
+   * @param new_var the new value of passanger_age
+   */
+  void setPassanger_age (int new_var)   {
+      passanger_age = new_var;
+  }
+
+  /**
+   * Get the value of passanger_age
+   * @return the value of passanger_age
+   */
+  int getPassanger_age ()   {
+    return passanger_age;
+  }
+
+  /**
+   * Set the value of train_no
+   * @param new_var the new value of train_no
+   */
+  void setTrain_no (int new_var)   {
+      train_no = new_var;
+  }
+
+  /**
+   * Get the value of train_no
+   * @return the value of train_no
+   */
+  int getTrain_no ()   {
+    return train_no;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // PASSANGER_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "railway_reservation_system.h"
+
+// Constructors/Destructors
+//  
+
+railway_reservation_system::railway_reservation_system () {
+initAttributes();
+}
+
+railway_reservation_system::~railway_reservation_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void railway_reservation_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef RAILWAY_RESERVATION_SYSTEM_H
+#define RAILWAY_RESERVATION_SYSTEM_H
+
+#include <string>
+
+/**
+  * class railway_reservation_system
+  * 
+  */
+
+class railway_reservation_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  railway_reservation_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~railway_reservation_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void status_ ()
+  {
+  }
+
+
+  /**
+   */
+  void reservation ()
+  {
+  }
+
+
+  /**
+   */
+  void cancellation ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int train_number;
+  string train_name;
+  string passanger_name;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of train_number
+   * @param new_var the new value of train_number
+   */
+  void setTrain_number (int new_var)   {
+      train_number = new_var;
+  }
+
+  /**
+   * Get the value of train_number
+   * @return the value of train_number
+   */
+  int getTrain_number ()   {
+    return train_number;
+  }
+
+  /**
+   * Set the value of train_name
+   * @param new_var the new value of train_name
+   */
+  void setTrain_name (string new_var)   {
+      train_name = new_var;
+  }
+
+  /**
+   * Get the value of train_name
+   * @return the value of train_name
+   */
+  string getTrain_name ()   {
+    return train_name;
+  }
+
+  /**
+   * Set the value of passanger_name
+   * @param new_var the new value of passanger_name
+   */
+  void setPassanger_name (string new_var)   {
+      passanger_name = new_var;
+  }
+
+  /**
+   * Get the value of passanger_name
+   * @return the value of passanger_name
+   */
+  string getPassanger_name ()   {
+    return passanger_name;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // RAILWAY_RESERVATION_SYSTEM_H
