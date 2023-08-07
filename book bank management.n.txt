@@ -1,0 +1,442 @@
+#include "admin.h"
+
+// Constructors/Destructors
+//  
+
+admin::admin () {
+initAttributes();
+}
+
+admin::~admin () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void admin::initAttributes () {
+}
+
+  
+
+
+
+
+
+
+
+
+
+#ifndef ADMIN_H
+#define ADMIN_H
+
+#include <string>
+
+/**
+  * class admin
+  * 
+  */
+
+class admin
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  admin ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~admin ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void verify_student ()
+  {
+  }
+
+
+  /**
+   */
+  void check_for_book_availability ()
+  {
+  }
+
+
+  /**
+   */
+  void issue_books ()
+  {
+  }
+
+
+  /**
+   */
+  void order_new_author ()
+  {
+  }
+
+
+  /**
+   */
+  void maintain_student_detail ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string student_details;
+  string booklist;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of student_details
+   * @param new_var the new value of student_details
+   */
+  void setStudent_details (string new_var)   {
+      student_details = new_var;
+  }
+
+  /**
+   * Get the value of student_details
+   * @return the value of student_details
+   */
+  string getStudent_details ()   {
+    return student_details;
+  }
+
+  /**
+   * Set the value of booklist
+   * @param new_var the new value of booklist
+   */
+  void setBooklist (string new_var)   {
+      booklist = new_var;
+  }
+
+  /**
+   * Get the value of booklist
+   * @return the value of booklist
+   */
+  string getBooklist ()   {
+    return booklist;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // ADMIN_H
+
+
+
+
+
+
+#include "computer.h"
+
+// Constructors/Destructors
+//  
+
+computer::computer () {
+initAttributes();
+}
+
+computer::~computer () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void computer::initAttributes () {
+}
+
+
+
+
+
+
+
+#ifndef COMPUTER_H
+#define COMPUTER_H
+
+#include <string>
+
+/**
+  * class computer
+  * 
+  */
+
+class computer
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  computer ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~computer ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void maintain_stud_record ()
+  {
+  }
+
+
+  /**
+   */
+  void enter_issue ()
+  {
+  }
+
+
+  /**
+   */
+  void order_new_author_ ()
+  {
+  }
+
+
+  /**
+   */
+  void check_availabilty ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string student_record;
+  string booklist;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of student_record
+   * @param new_var the new value of student_record
+   */
+  void setStudent_record (string new_var)   {
+      student_record = new_var;
+  }
+
+  /**
+   * Get the value of student_record
+   * @return the value of student_record
+   */
+  string getStudent_record ()   {
+    return student_record;
+  }
+
+  /**
+   * Set the value of booklist
+   * @param new_var the new value of booklist
+   */
+  void setBooklist (string new_var)   {
+      booklist = new_var;
+  }
+
+  /**
+   * Get the value of booklist
+   * @return the value of booklist
+   */
+  string getBooklist ()   {
+    return booklist;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // COMPUTER_H
+
+
+
+
+
+
+#include "student.h"
+
+// Constructors/Destructors
+//  
+
+student::student () {
+initAttributes();
+}
+
+student::~student () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void student::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
