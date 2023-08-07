@@ -1,0 +1,616 @@
+#include "classes.h"
+
+// Constructors/Destructors
+//  
+
+classes::classes () {
+initAttributes();
+}
+
+classes::~classes () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void classes::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CLASSES_H
+#define CLASSES_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class classes
+  * 
+  */
+
+class classes
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  classes ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~classes ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void view_class ()
+  {
+  }
+
+
+  /**
+   */
+  void add_c_ass ()
+  {
+  }
+
+
+  /**
+   */
+  void drop_class ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int class_number;
+  string type;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of class_number
+   * @param new_var the new value of class_number
+   */
+  void setClass_number (int new_var)   {
+      class_number = new_var;
+  }
+
+  /**
+   * Get the value of class_number
+   * @return the value of class_number
+   */
+  int getClass_number ()   {
+    return class_number;
+  }
+
+  /**
+   * Set the value of type
+   * @param new_var the new value of type
+   */
+  void setType (string new_var)   {
+      type = new_var;
+  }
+
+  /**
+   * Get the value of type
+   * @return the value of type
+   */
+  string getType ()   {
+    return type;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CLASSES_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "course.h"
+
+// Constructors/Destructors
+//  
+
+course::course () {
+initAttributes();
+}
+
+course::~course () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void course::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef COURSE_H
+#define COURSE_H
+
+#include <string>
+
+/**
+  * class course
+  * 
+  */
+
+class course
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  course ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~course ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_course ()
+  {
+  }
+
+
+  /**
+   */
+  void update_course ()
+  {
+  }
+
+
+  /**
+   */
+  void delete_course ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int course;
+  string name;
+  int duration;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of course
+   * @param new_var the new value of course
+   */
+  void setCourse (int new_var)   {
+      course = new_var;
+  }
+
+  /**
+   * Get the value of course
+   * @return the value of course
+   */
+  int getCourse ()   {
+    return course;
+  }
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of duration
+   * @param new_var the new value of duration
+   */
+  void setDuration (int new_var)   {
+      duration = new_var;
+  }
+
+  /**
+   * Get the value of duration
+   * @return the value of duration
+   */
+  int getDuration ()   {
+    return duration;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // COURSE_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "online.h"
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef ONLINE_H
+#define ONLINE_H
+
+#include <string>
+
+/**
+  * class online
+  * 
+  */
+
+/******************************* Abstract Class ****************************
+online does not have any pure virtual methods, but its author
+  defined it as an abstract class, so you should not use it directly.
+  Inherit from it instead and create only objects from the derived classes
+*****************************************************************************/
+
+class online
+{
+public:
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  virtual void class_URL ()
+  {
+  }
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+
+
+};
+
+#endif // ONLINE_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "registration_record.h"
+
+// Constructors/Destructors
+//  
+
+registration_record::registration_record () {
+initAttributes();
+}
+
+registration_record::~registration_record () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void registration_record::initAttributes () {
+}
+

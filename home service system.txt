@@ -1,0 +1,749 @@
+#include "controller.h"
+
+// Constructors/Destructors
+//  
+
+controller::controller () {
+initAttributes();
+}
+
+controller::~controller () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void controller::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CONTROLLER_H
+#define CONTROLLER_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class controller
+  * 
+  */
+
+class controller
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  controller ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~controller ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void check_fire ()
+  {
+  }
+
+
+  /**
+   */
+  void check_instruction ()
+  {
+  }
+
+
+  /**
+   */
+  void control_fan ()
+  {
+  }
+
+
+  /**
+   */
+  void control_light ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string alert_msg;
+  string command;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of alert_msg
+   * @param new_var the new value of alert_msg
+   */
+  void setAlert_msg (string new_var)   {
+      alert_msg = new_var;
+  }
+
+  /**
+   * Get the value of alert_msg
+   * @return the value of alert_msg
+   */
+  string getAlert_msg ()   {
+    return alert_msg;
+  }
+
+  /**
+   * Set the value of command
+   * @param new_var the new value of command
+   */
+  void setCommand (string new_var)   {
+      command = new_var;
+  }
+
+  /**
+   * Get the value of command
+   * @return the value of command
+   */
+  string getCommand ()   {
+    return command;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CONTROLLER_H
+
+
+
+
+
+
+
+
+
+
+
+#include "fire_sensor.h"
+
+// Constructors/Destructors
+//  
+
+fire_sensor::fire_sensor () {
+initAttributes();
+}
+
+fire_sensor::~fire_sensor () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void fire_sensor::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef FIRE_SENSOR_H
+#define FIRE_SENSOR_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class fire_sensor
+  * 
+  */
+
+class fire_sensor
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  fire_sensor ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~fire_sensor ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void monitor_fire ()
+  {
+  }
+
+
+  /**
+   */
+  void send_alert ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  bool fire_detected;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of fire_detected
+   * @param new_var the new value of fire_detected
+   */
+  void setFire_detected (bool new_var)   {
+      fire_detected = new_var;
+  }
+
+  /**
+   * Get the value of fire_detected
+   * @return the value of fire_detected
+   */
+  bool getFire_detected ()   {
+    return fire_detected;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // FIRE_SENSOR_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "light.h"
+
+// Constructors/Destructors
+//  
+
+light::light () {
+initAttributes();
+}
+
+light::~light () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void light::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef LIGHT_H
+#define LIGHT_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class light
+  * 
+  */
+
+class light
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  light ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~light ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void on ()
+  {
+  }
+
+
+  /**
+   */
+  void off ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  void status_on_off;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of status_on_off
+   * @param new_var the new value of status_on_off
+   */
+  void setStatus_on_off (void new_var)   {
+      status_on_off = new_var;
+  }
+
+  /**
+   * Get the value of status_on_off
+   * @return the value of status_on_off
+   */
+  void getStatus_on_off ()   {
+    return status_on_off;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // LIGHT_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef TRANCEIVER_H
+#define TRANCEIVER_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class tranceiver
+  * 
+  */
+
+class tranceiver
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  tranceiver ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~tranceiver ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void receive_command ()
+  {
+  }
+
+
+  /**
+   */
+  void send_alert ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string alert_msg;
+  string command_;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of alert_msg
+   * @param new_var the new value of alert_msg
+   */
+  void setAlert_msg (string new_var)   {
+      alert_msg = new_var;
+  }
+
+  /**
+   * Get the value of alert_msg
+   * @return the value of alert_msg
+   */
+  string getAlert_msg ()   {
+    return alert_msg;
+  }
+
+  /**
+   * Set the value of command_
+   * @param new_var the new value of command_
+   */
+  void setCommand_ (string new_var)   {
+      command_ = new_var;
+  }
+
+  /**
+   * Get the value of command_
+   * @return the value of command_
+   */
+  string getCommand_ ()   {
+    return command_;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // TRANCEIVER_H

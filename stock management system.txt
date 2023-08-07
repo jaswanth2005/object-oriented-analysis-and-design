@@ -1,0 +1,706 @@
+#include "central_stock_system.h"
+
+// Constructors/Destructors
+//  
+
+central_stock_system::central_stock_system () {
+initAttributes();
+}
+
+central_stock_system::~central_stock_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void central_stock_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CENTRAL_STOCK_SYSTEM_H
+#define CENTRAL_STOCK_SYSTEM_H
+
+#include <string>
+
+/**
+  * class central_stock_system
+  * 
+  */
+
+class central_stock_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  central_stock_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~central_stock_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void print_bill ()
+  {
+  }
+
+
+  /**
+   */
+  void delivery_product ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string store_stock_details;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of store_stock_details
+   * @param new_var the new value of store_stock_details
+   */
+  void setStore_stock_details (string new_var)   {
+      store_stock_details = new_var;
+  }
+
+  /**
+   * Get the value of store_stock_details
+   * @return the value of store_stock_details
+   */
+  string getStore_stock_details ()   {
+    return store_stock_details;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_STOCK_SYSTEM_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "customer.h"
+
+// Constructors/Destructors
+//  
+
+customer::customer () {
+initAttributes();
+}
+
+customer::~customer () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void customer::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CUSTOMER_H
+#define CUSTOMER_H
+
+#include <string>
+
+/**
+  * class customer
+  * 
+  */
+
+class customer
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  customer ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~customer ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void payment ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string palce_order;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of palce_order
+   * @param new_var the new value of palce_order
+   */
+  void setPalce_order (string new_var)   {
+      palce_order = new_var;
+  }
+
+  /**
+   * Get the value of palce_order
+   * @return the value of palce_order
+   */
+  string getPalce_order ()   {
+    return palce_order;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CUSTOMER_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef NEW_CLASS_H
+#define NEW_CLASS_H
+
+#include <string>
+
+/**
+  * class new_class
+  * 
+  */
+
+class new_class
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  new_class ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~new_class ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+
+
+};
+
+#endif // NEW_CLASS_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "stock_dealer.h"
+
+// Constructors/Destructors
+//  
+
+stock_dealer::stock_dealer () {
+initAttributes();
+}
+
+stock_dealer::~stock_dealer () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void stock_dealer::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef STOCK_DEALER_H
+#define STOCK_DEALER_H
+
+#include <string>
+
+/**
+  * class stock_dealer
+  * 
+  */
+
+class stock_dealer
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  stock_dealer ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~stock_dealer ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void delivery_item ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string take_order;
+  string enter_order;
+  string verify_order;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of take_order
+   * @param new_var the new value of take_order
+   */
+  void setTake_order (string new_var)   {
+      take_order = new_var;
+  }
+
+  /**
+   * Get the value of take_order
+   * @return the value of take_order
+   */
+  string getTake_order ()   {
+    return take_order;
+  }
+
+  /**
+   * Set the value of enter_order
+   * @param new_var the new value of enter_order
+   */
+  void setEnter_order (string new_var)   {
+      enter_order = new_var;
+  }
+
+  /**
+   * Get the value of enter_order
+   * @return the value of enter_order
+   */
+  string getEnter_order ()   {
+    return enter_order;
+  }
+
+  /**
+   * Set the value of verify_order
+   * @param new_var the new value of verify_order
+   */
+  void setVerify_order (string new_var)   {
+      verify_order = new_var;
+  }
+
+  /**
+   * Get the value of verify_order
+   * @return the value of verify_order
+   */
+  string getVerify_order ()   {
+    return verify_order;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // STOCK_DEALER_H

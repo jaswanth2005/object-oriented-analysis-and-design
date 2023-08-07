@@ -1,0 +1,889 @@
+#include "department.h"
+
+// Constructors/Destructors
+//  
+
+department::department () {
+initAttributes();
+}
+
+department::~department () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void department::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef DEPARTMENT_H
+#define DEPARTMENT_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class department
+  * 
+  */
+
+class department
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  department ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~department ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_doctor ()
+  {
+  }
+
+
+  /**
+   */
+  void new_operationremove_doctor ()
+  {
+  }
+
+
+  /**
+   */
+  void get_doctor ()
+  {
+  }
+
+
+  /**
+   */
+  void add_nurse ()
+  {
+  }
+
+
+  /**
+   */
+  void _remove_nurse ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string name;
+  string doctors;
+  string nurse;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of doctors
+   * @param new_var the new value of doctors
+   */
+  void setDoctors (string new_var)   {
+      doctors = new_var;
+  }
+
+  /**
+   * Get the value of doctors
+   * @return the value of doctors
+   */
+  string getDoctors ()   {
+    return doctors;
+  }
+
+  /**
+   * Set the value of nurse
+   * @param new_var the new value of nurse
+   */
+  void setNurse (string new_var)   {
+      nurse = new_var;
+  }
+
+  /**
+   * Get the value of nurse
+   * @return the value of nurse
+   */
+  string getNurse ()   {
+    return nurse;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // DEPARTMENT_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "doctor.h"
+
+// Constructors/Destructors
+//  
+
+doctor::doctor () {
+initAttributes();
+}
+
+doctor::~doctor () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void doctor::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef DOCTOR_H
+#define DOCTOR_H
+
+#include <string>
+
+/**
+  * class doctor
+  * 
+  */
+
+class doctor
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  doctor ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~doctor ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string name;
+  string speciality;
+  int id;
+  int salary;
+  department deparment;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of speciality
+   * @param new_var the new value of speciality
+   */
+  void setSpeciality (string new_var)   {
+      speciality = new_var;
+  }
+
+  /**
+   * Get the value of speciality
+   * @return the value of speciality
+   */
+  string getSpeciality ()   {
+    return speciality;
+  }
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of salary
+   * @param new_var the new value of salary
+   */
+  void setSalary (int new_var)   {
+      salary = new_var;
+  }
+
+  /**
+   * Get the value of salary
+   * @return the value of salary
+   */
+  int getSalary ()   {
+    return salary;
+  }
+
+  /**
+   * Set the value of deparment
+   * @param new_var the new value of deparment
+   */
+  void setDeparment (department new_var)   {
+      deparment = new_var;
+  }
+
+  /**
+   * Get the value of deparment
+   * @return the value of deparment
+   */
+  department getDeparment ()   {
+    return deparment;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // DOCTOR_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "hospital.h"
+
+// Constructors/Destructors
+//  
+
+hospital::hospital () {
+initAttributes();
+}
+
+hospital::~hospital () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void hospital::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef HOSPITAL_H
+#define HOSPITAL_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class hospital
+  * 
+  */
+
+class hospital
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  hospital ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~hospital ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_department ()
+  {
+  }
+
+
+  /**
+   */
+  void remove_department ()
+  {
+  }
+
+
+  /**
+   */
+  void add_name ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string name;
+  string address;
+  string department;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of address
+   * @param new_var the new value of address
+   */
+  void setAddress (string new_var)   {
+      address = new_var;
+  }
+
+  /**
+   * Get the value of address
+   * @return the value of address
+   */
+  string getAddress ()   {
+    return address;
+  }
+
+  /**
+   * Set the value of department
+   * @param new_var the new value of department
+   */
+  void setDepartment (string new_var)   {
+      department = new_var;
+  }
+
+  /**
+   * Get the value of department
+   * @return the value of department
+   */
+  string getDepartment ()   {
+    return department;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // HOSPITAL_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef NURSE_H
+#define NURSE_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class nurse
+  * 
+  */
+
+class nurse
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  nurse ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~nurse ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string name;
+  string salary;
+  string departmen;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of salary
+   * @param new_var the new value of salary
+   */
+  void setSalary (string new_var)   {
+      salary = new_var;
+  }
+
+  /**
+   * Get the value of salary
+   * @return the value of salary
+   */
+  string getSalary ()   {
+    return salary;
+  }
+
+  /**
+   * Set the value of departmen
+   * @param new_var the new value of departmen
+   */
+  void setDepartmen (string new_var)   {
+      departmen = new_var;
+  }
+
+  /**
+   * Get the value of departmen
+   * @return the value of departmen
+   */
+  string getDepartmen ()   {
+    return departmen;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // NURSE_H

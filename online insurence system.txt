@@ -1,0 +1,1007 @@
+#include "payment.h"
+
+// Constructors/Destructors
+//  
+
+payment::payment () {
+initAttributes();
+}
+
+payment::~payment () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void payment::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef PAYMENT_H
+#define PAYMENT_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class payment
+  * 
+  */
+
+class payment
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  payment ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~payment ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add ()
+  {
+  }
+
+
+  /**
+   */
+  void edit ()
+  {
+  }
+
+
+  /**
+   */
+  void delete ()
+  {
+  }
+
+
+  /**
+   */
+  void search ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int id;
+  string title;
+  string amount;
+  string customer;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of title
+   * @param new_var the new value of title
+   */
+  void setTitle (string new_var)   {
+      title = new_var;
+  }
+
+  /**
+   * Get the value of title
+   * @return the value of title
+   */
+  string getTitle ()   {
+    return title;
+  }
+
+  /**
+   * Set the value of amount
+   * @param new_var the new value of amount
+   */
+  void setAmount (string new_var)   {
+      amount = new_var;
+  }
+
+  /**
+   * Get the value of amount
+   * @return the value of amount
+   */
+  string getAmount ()   {
+    return amount;
+  }
+
+  /**
+   * Set the value of customer
+   * @param new_var the new value of customer
+   */
+  void setCustomer (string new_var)   {
+      customer = new_var;
+  }
+
+  /**
+   * Get the value of customer
+   * @return the value of customer
+   */
+  string getCustomer ()   {
+    return customer;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // PAYMENT_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "permission.h"
+
+// Constructors/Destructors
+//  
+
+permission::permission () {
+initAttributes();
+}
+
+permission::~permission () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void permission::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef PERMISSION_H
+#define PERMISSION_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class permission
+  * 
+  */
+
+class permission
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  permission ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~permission ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add ()
+  {
+  }
+
+
+  /**
+   */
+  void edit ()
+  {
+  }
+
+
+  /**
+   */
+  void delete ()
+  {
+  }
+
+
+  /**
+   */
+  void search ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int id;
+  string title;
+  string module;
+  string description;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of title
+   * @param new_var the new value of title
+   */
+  void setTitle (string new_var)   {
+      title = new_var;
+  }
+
+  /**
+   * Get the value of title
+   * @return the value of title
+   */
+  string getTitle ()   {
+    return title;
+  }
+
+  /**
+   * Set the value of module
+   * @param new_var the new value of module
+   */
+  void setModule (string new_var)   {
+      module = new_var;
+  }
+
+  /**
+   * Get the value of module
+   * @return the value of module
+   */
+  string getModule ()   {
+    return module;
+  }
+
+  /**
+   * Set the value of description
+   * @param new_var the new value of description
+   */
+  void setDescription (string new_var)   {
+      description = new_var;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+  string getDescription ()   {
+    return description;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // PERMISSION_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "role.h"
+
+// Constructors/Destructors
+//  
+
+role::role () {
+initAttributes();
+}
+
+role::~role () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void role::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef ROLE_H
+#define ROLE_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class role
+  * 
+  */
+
+class role
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  role ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~role ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add ()
+  {
+  }
+
+
+  /**
+   */
+  void edit ()
+  {
+  }
+
+
+  /**
+   */
+  void search ()
+  {
+  }
+
+
+  /**
+   */
+  void assign ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int id;
+  string title;
+  string description;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of title
+   * @param new_var the new value of title
+   */
+  void setTitle (string new_var)   {
+      title = new_var;
+  }
+
+  /**
+   * Get the value of title
+   * @return the value of title
+   */
+  string getTitle ()   {
+    return title;
+  }
+
+  /**
+   * Set the value of description
+   * @param new_var the new value of description
+   */
+  void setDescription (string new_var)   {
+      description = new_var;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+  string getDescription ()   {
+    return description;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // ROLE_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "user.h"
+
+// Constructors/Destructors
+//  
+
+user::user () {
+initAttributes();
+}
+
+user::~user () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void user::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef USER_H
+#define USER_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class user
+  * 
+  */
+
+class user
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  user ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~user ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_ ()
+  {
+  }
+
+
+  /**
+   */
+  void edit ()
+  {
+  }
+
+
+  /**
+   */
+  void search ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int id;
+  string name;
+  string email;
+  string DOB;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of email
+   * @param new_var the new value of email
+   */
+  void setEmail (string new_var)   {
+      email = new_var;
+  }
+
+  /**
+   * Get the value of email
+   * @return the value of email
+   */
+  string getEmail ()   {
+    return email;
+  }
+
+  /**
+   * Set the value of DOB
+   * @param new_var the new value of DOB
+   */
+  void setDOB (string new_var)   {
+      DOB = new_var;
+  }
+
+  /**
+   * Get the value of DOB
+   * @return the value of DOB
+   */
+  string getDOB ()   {
+    return DOB;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // USER_H

@@ -1,0 +1,813 @@
+#include "candidate_1.h"
+
+// Constructors/Destructors
+//  
+
+candidate_1::candidate_1 () {
+initAttributes();
+}
+
+candidate_1::~candidate_1 () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void candidate_1::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CANDIDATE_1_H
+#define CANDIDATE_1_H
+
+#include <string>
+
+/**
+  * class candidate_1
+  * 
+  */
+
+class candidate_1
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  candidate_1 ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~candidate_1 ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void verify ()
+  {
+  }
+
+
+  /**
+   */
+  void candidate ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class name_;
+  new_class_1 operation;
+  new_class_2 qualification;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of name_
+   * @param new_var the new value of name_
+   */
+  void setName_ (new_class new_var)   {
+      name_ = new_var;
+  }
+
+  /**
+   * Get the value of name_
+   * @return the value of name_
+   */
+  new_class getName_ ()   {
+    return name_;
+  }
+
+  /**
+   * Set the value of operation
+   * @param new_var the new value of operation
+   */
+  void setOperation (new_class_1 new_var)   {
+      operation = new_var;
+  }
+
+  /**
+   * Get the value of operation
+   * @return the value of operation
+   */
+  new_class_1 getOperation ()   {
+    return operation;
+  }
+
+  /**
+   * Set the value of qualification
+   * @param new_var the new value of qualification
+   */
+  void setQualification (new_class_2 new_var)   {
+      qualification = new_var;
+  }
+
+  /**
+   * Get the value of qualification
+   * @return the value of qualification
+   */
+  new_class_2 getQualification ()   {
+    return qualification;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CANDIDATE_1_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "central_management_system.h"
+
+// Constructors/Destructors
+//  
+
+central_management_system::central_management_system () {
+initAttributes();
+}
+
+central_management_system::~central_management_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void central_management_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CENTRAL_MANAGEMENT_SYSTEM_H
+#define CENTRAL_MANAGEMENT_SYSTEM_H
+
+#include <string>
+
+/**
+  * class central_management_system
+  * 
+  */
+
+class central_management_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  central_management_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~central_management_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void verify ()
+  {
+  }
+
+
+  /**
+   */
+  void enroll ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string store_details;
+  string verify_details;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of store_details
+   * @param new_var the new value of store_details
+   */
+  void setStore_details (string new_var)   {
+      store_details = new_var;
+  }
+
+  /**
+   * Get the value of store_details
+   * @return the value of store_details
+   */
+  string getStore_details ()   {
+    return store_details;
+  }
+
+  /**
+   * Set the value of verify_details
+   * @param new_var the new value of verify_details
+   */
+  void setVerify_details (string new_var)   {
+      verify_details = new_var;
+  }
+
+  /**
+   * Get the value of verify_details
+   * @return the value of verify_details
+   */
+  string getVerify_details ()   {
+    return verify_details;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_MANAGEMENT_SYSTEM_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "central_system.h"
+
+// Constructors/Destructors
+//  
+
+central_system::central_system () {
+initAttributes();
+}
+
+central_system::~central_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void central_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CENTRAL_SYSTEM_H
+#define CENTRAL_SYSTEM_H
+
+#include <string>
+
+/**
+  * class central_system
+  * 
+  */
+
+class central_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  central_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~central_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class_5 store;
+  new_class_6 update;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of store
+   * @param new_var the new value of store
+   */
+  void setStore (new_class_5 new_var)   {
+      store = new_var;
+  }
+
+  /**
+   * Get the value of store
+   * @return the value of store
+   */
+  new_class_5 getStore ()   {
+    return store;
+  }
+
+  /**
+   * Set the value of update
+   * @param new_var the new value of update
+   */
+  void setUpdate (new_class_6 new_var)   {
+      update = new_var;
+  }
+
+  /**
+   * Get the value of update
+   * @return the value of update
+   */
+  new_class_6 getUpdate ()   {
+    return update;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_SYSTEM_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "HR.h"
+
+// Constructors/Destructors
+//  
+
+HR::HR () {
+initAttributes();
+}
+
+HR::~HR () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void HR::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef HR_H
+#define HR_H
+
+#include <string>
+
+/**
+  * class HR
+  * 
+  */
+
+class HR
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  HR ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~HR ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class_3 verification;
+  new_class_4 resume;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of verification
+   * @param new_var the new value of verification
+   */
+  void setVerification (new_class_3 new_var)   {
+      verification = new_var;
+  }
+
+  /**
+   * Get the value of verification
+   * @return the value of verification
+   */
+  new_class_3 getVerification ()   {
+    return verification;
+  }
+
+  /**
+   * Set the value of resume
+   * @param new_var the new value of resume
+   */
+  void setResume (new_class_4 new_var)   {
+      resume = new_var;
+  }
+
+  /**
+   * Get the value of resume
+   * @return the value of resume
+   */
+  new_class_4 getResume ()   {
+    return resume;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // HR_H

@@ -1,0 +1,801 @@
+#include "permission.h"
+
+// Constructors/Destructors
+//  
+
+permission::permission () {
+initAttributes();
+}
+
+permission::~permission () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void permission::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef PERMISSION_H
+#define PERMISSION_H
+
+#include <string>
+
+/**
+  * class permission
+  * 
+  */
+
+class permission
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  permission ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~permission ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_permission ()
+  {
+  }
+
+
+  /**
+   */
+  void edit_permission ()
+  {
+  }
+
+
+  /**
+   */
+  void delete_permission ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string id;
+  string title;
+  string module;
+  string description;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (string new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  string getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of title
+   * @param new_var the new value of title
+   */
+  void setTitle (string new_var)   {
+      title = new_var;
+  }
+
+  /**
+   * Get the value of title
+   * @return the value of title
+   */
+  string getTitle ()   {
+    return title;
+  }
+
+  /**
+   * Set the value of module
+   * @param new_var the new value of module
+   */
+  void setModule (string new_var)   {
+      module = new_var;
+  }
+
+  /**
+   * Get the value of module
+   * @return the value of module
+   */
+  string getModule ()   {
+    return module;
+  }
+
+  /**
+   * Set the value of description
+   * @param new_var the new value of description
+   */
+  void setDescription (string new_var)   {
+      description = new_var;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+  string getDescription ()   {
+    return description;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // PERMISSION_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "registration_class.h"
+
+// Constructors/Destructors
+//  
+
+registration_class::registration_class () {
+initAttributes();
+}
+
+registration_class::~registration_class () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void registration_class::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef REGISTRATION_CLASS_H
+#define REGISTRATION_CLASS_H
+#include "permission.h"
+
+#include <string>
+
+/**
+  * class registration_class
+  * 
+  */
+
+class registration_class : public permission
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  registration_class ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~registration_class ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_registration ()
+  {
+  }
+
+
+  /**
+   */
+  void edit_registration ()
+  {
+  }
+
+
+  /**
+   */
+  void search_registration ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string id;
+  string name;
+  string type;
+  string description;
+  int registration_number;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (string new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  string getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of type
+   * @param new_var the new value of type
+   */
+  void setType (string new_var)   {
+      type = new_var;
+  }
+
+  /**
+   * Get the value of type
+   * @return the value of type
+   */
+  string getType ()   {
+    return type;
+  }
+
+  /**
+   * Set the value of description
+   * @param new_var the new value of description
+   */
+  void setDescription (string new_var)   {
+      description = new_var;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+  string getDescription ()   {
+    return description;
+  }
+
+  /**
+   * Set the value of registration_number
+   * @param new_var the new value of registration_number
+   */
+  void setRegistration_number (int new_var)   {
+      registration_number = new_var;
+  }
+
+  /**
+   * Get the value of registration_number
+   * @return the value of registration_number
+   */
+  int getRegistration_number ()   {
+    return registration_number;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // REGISTRATION_CLASS_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "user_class.h"
+
+// Constructors/Destructors
+//  
+
+user_class::user_class () {
+initAttributes();
+}
+
+user_class::~user_class () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void user_class::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "vehicle_class.h"
+
+// Constructors/Destructors
+//  
+
+vehicle_class::vehicle_class () {
+initAttributes();
+}
+
+vehicle_class::~vehicle_class () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void vehicle_class::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef VEHICLE_CLASS_H
+#define VEHICLE_CLASS_H
+#include "permission.h"
+
+#include <string>
+
+/**
+  * class vehicle_class
+  * 
+  */
+
+class vehicle_class : public permission
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  vehicle_class ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~vehicle_class ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add ()
+  {
+  }
+
+
+  /**
+   */
+  void edit ()
+  {
+  }
+
+
+  /**
+   */
+  void search ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int vehicle_id;
+  string number;
+  string description;
+  string type;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of vehicle_id
+   * @param new_var the new value of vehicle_id
+   */
+  void setVehicle_id (int new_var)   {
+      vehicle_id = new_var;
+  }
+
+  /**
+   * Get the value of vehicle_id
+   * @return the value of vehicle_id
+   */
+  int getVehicle_id ()   {
+    return vehicle_id;
+  }
+
+  /**
+   * Set the value of number
+   * @param new_var the new value of number
+   */
+  void setNumber (string new_var)   {
+      number = new_var;
+  }
+
+  /**
+   * Get the value of number
+   * @return the value of number
+   */
+  string getNumber ()   {
+    return number;
+  }
+
+  /**
+   * Set the value of description
+   * @param new_var the new value of description
+   */
+  void setDescription (string new_var)   {
+      description = new_var;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+  string getDescription ()   {
+    return description;
+  }
+
+  /**
+   * Set the value of type
+   * @param new_var the new value of type
+   */
+  void setType (string new_var)   {
+      type = new_var;
+  }
+
+  /**
+   * Get the value of type
+   * @return the value of type
+   */
+  string getType ()   {
+    return type;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // VEHICLE_CLASS_H

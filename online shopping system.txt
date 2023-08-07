@@ -1,0 +1,817 @@
+#include "manager.h"
+
+// Constructors/Destructors
+//  
+
+manager::manager () {
+initAttributes();
+}
+
+manager::~manager () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void manager::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef MANAGER_H
+#define MANAGER_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class manager
+  * 
+  */
+
+class manager
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  manager ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~manager ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void maintain_leader ()
+  {
+  }
+
+
+  /**
+   */
+  void doquality_check ()
+  {
+  }
+
+
+  /**
+   */
+  void report_to_owner ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string id;
+  string name;
+  string phno;
+  string address;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (string new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  string getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of phno
+   * @param new_var the new value of phno
+   */
+  void setPhno (string new_var)   {
+      phno = new_var;
+  }
+
+  /**
+   * Get the value of phno
+   * @return the value of phno
+   */
+  string getPhno ()   {
+    return phno;
+  }
+
+  /**
+   * Set the value of address
+   * @param new_var the new value of address
+   */
+  void setAddress (string new_var)   {
+      address = new_var;
+  }
+
+  /**
+   * Get the value of address
+   * @return the value of address
+   */
+  string getAddress ()   {
+    return address;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // MANAGER_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "managers.h"
+
+// Constructors/Destructors
+//  
+
+managers::managers () {
+initAttributes();
+}
+
+managers::~managers () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void managers::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "managers.h"
+
+// Constructors/Destructors
+//  
+
+managers::managers () {
+initAttributes();
+}
+
+managers::~managers () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void managers::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef MANAGERS_H
+#define MANAGERS_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class managers
+  * 
+  */
+
+class managers
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  managers ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~managers ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void add_products ()
+  {
+  }
+
+
+  /**
+   */
+  void delete_products ()
+  {
+  }
+
+
+  /**
+   */
+  void modify_products ()
+  {
+  }
+
+
+  /**
+   */
+  void show_products ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string id_;
+  string name;
+  float price;
+  int mfg_date;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id_
+   * @param new_var the new value of id_
+   */
+  void setId_ (string new_var)   {
+      id_ = new_var;
+  }
+
+  /**
+   * Get the value of id_
+   * @return the value of id_
+   */
+  string getId_ ()   {
+    return id_;
+  }
+
+  /**
+   * Set the value of name
+   * @param new_var the new value of name
+   */
+  void setName (string new_var)   {
+      name = new_var;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  string getName ()   {
+    return name;
+  }
+
+  /**
+   * Set the value of price
+   * @param new_var the new value of price
+   */
+  void setPrice (float new_var)   {
+      price = new_var;
+  }
+
+  /**
+   * Get the value of price
+   * @return the value of price
+   */
+  float getPrice ()   {
+    return price;
+  }
+
+  /**
+   * Set the value of mfg_date
+   * @param new_var the new value of mfg_date
+   */
+  void setMfg_date (int new_var)   {
+      mfg_date = new_var;
+  }
+
+  /**
+   * Get the value of mfg_date
+   * @return the value of mfg_date
+   */
+  int getMfg_date ()   {
+    return mfg_date;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // MANAGERS_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "order.h"
+
+// Constructors/Destructors
+//  
+
+order::order () {
+initAttributes();
+}
+
+order::~order () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void order::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef ORDER_H
+#define ORDER_H
+
+#include <string>
+#include vector
+
+
+
+/**
+  * class order
+  * 
+  */
+
+class order
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  order ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~order ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void show_order_details ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  char id;
+  char product;
+  float amount;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (char new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  char getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of product
+   * @param new_var the new value of product
+   */
+  void setProduct (char new_var)   {
+      product = new_var;
+  }
+
+  /**
+   * Get the value of product
+   * @return the value of product
+   */
+  char getProduct ()   {
+    return product;
+  }
+
+  /**
+   * Set the value of amount
+   * @param new_var the new value of amount
+   */
+  void setAmount (float new_var)   {
+      amount = new_var;
+  }
+
+  /**
+   * Get the value of amount
+   * @return the value of amount
+   */
+  float getAmount ()   {
+    return amount;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // ORDER_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "owner.h"
+
+// Constructors/Destructors
+//  
+
+owner::owner () {
+initAttributes();
+}
+
+owner::~owner () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void owner::initAttributes () {
+}
+

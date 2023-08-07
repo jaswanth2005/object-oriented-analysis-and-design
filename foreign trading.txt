@@ -1,0 +1,319 @@
+
+
+/**
+ * Class Customer
+ */
+public class Customer {
+
+  //
+  // Fields
+  //
+
+  private String order_product;
+  private integer quality;
+  
+  //
+  // Constructors
+  //
+  public Customer () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of order_product
+   * @param newVar the new value of order_product
+   */
+  private void setOrder_product (String newVar) {
+    order_product = newVar;
+  }
+
+  /**
+   * Get the value of order_product
+   * @return the value of order_product
+   */
+  private String getOrder_product () {
+    return order_product;
+  }
+
+  /**
+   * Set the value of quality
+   * @param newVar the new value of quality
+   */
+  private void setQuality (integer newVar) {
+    quality = newVar;
+  }
+
+  /**
+   * Get the value of quality
+   * @return the value of quality
+   */
+  private integer getQuality () {
+    return quality;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void payment()
+  {
+  }
+
+
+  /**
+   */
+  public void delivery_()
+  {
+  }
+
+
+  /**
+   */
+  public void transport()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Class integer
+ */
+public class integer {
+
+  //
+  // Fields
+  //
+
+  
+  //
+  // Constructors
+  //
+  public integer () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  //
+  // Other methods
+  //
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Class supplier
+ */
+public class supplier {
+
+  //
+  // Fields
+  //
+
+  private String product_supply;
+  
+  //
+  // Constructors
+  //
+  public supplier () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of product_supply
+   * @param newVar the new value of product_supply
+   */
+  private void setProduct_supply (String newVar) {
+    product_supply = newVar;
+  }
+
+  /**
+   * Get the value of product_supply
+   * @return the value of product_supply
+   */
+  private String getProduct_supply () {
+    return product_supply;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void available_product()
+  {
+  }
+
+
+  /**
+   */
+  public void money_transfer()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Class trading_management_system
+ */
+public class trading_management_system {
+
+  //
+  // Fields
+  //
+
+  private String verify_product;
+  private integer amount;
+  
+  //
+  // Constructors
+  //
+  public trading_management_system () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of verify_product
+   * @param newVar the new value of verify_product
+   */
+  private void setVerify_product (String newVar) {
+    verify_product = newVar;
+  }
+
+  /**
+   * Get the value of verify_product
+   * @return the value of verify_product
+   */
+  private String getVerify_product () {
+    return verify_product;
+  }
+
+  /**
+   * Set the value of amount
+   * @param newVar the new value of amount
+   */
+  private void setAmount (integer newVar) {
+    amount = newVar;
+  }
+
+  /**
+   * Get the value of amount
+   * @return the value of amount
+   */
+  private integer getAmount () {
+    return amount;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void transport()
+  {
+  }
+
+
+  /**
+   */
+  public void delivery_product()
+  {
+  }
+
+
+  /**
+   */
+  public void money_transfer()
+  {
+  }
+
+
+}
+

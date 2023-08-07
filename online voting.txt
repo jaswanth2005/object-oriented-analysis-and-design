@@ -1,0 +1,661 @@
+#include "Applicant.h"
+
+// Constructors/Destructors
+//  
+
+Applicant::Applicant () {
+initAttributes();
+}
+
+Applicant::~Applicant () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void Applicant::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef APPLICANT_H
+#define APPLICANT_H
+
+#include <string>
+
+/**
+  * class Applicant
+  * 
+  */
+
+class Applicant
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  Applicant ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~Applicant ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void apply_passport ()
+  {
+  }
+
+
+  /**
+   */
+  void submission_of_proof ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class_2 applicant_name;
+  new_class_3 applicant_details;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of applicant_name
+   * @param new_var the new value of applicant_name
+   */
+  void setApplicant_name (new_class_2 new_var)   {
+      applicant_name = new_var;
+  }
+
+  /**
+   * Get the value of applicant_name
+   * @return the value of applicant_name
+   */
+  new_class_2 getApplicant_name ()   {
+    return applicant_name;
+  }
+
+  /**
+   * Set the value of applicant_details
+   * @param new_var the new value of applicant_details
+   */
+  void setApplicant_details (new_class_3 new_var)   {
+      applicant_details = new_var;
+  }
+
+  /**
+   * Get the value of applicant_details
+   * @return the value of applicant_details
+   */
+  new_class_3 getApplicant_details ()   {
+    return applicant_details;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // APPLICANT_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "Central_management_system.h"
+
+// Constructors/Destructors
+//  
+
+Central_management_system::Central_management_system () {
+initAttributes();
+}
+
+Central_management_system::~Central_management_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void Central_management_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "Central_management_system.h"
+
+// Constructors/Destructors
+//  
+
+Central_management_system::Central_management_system () {
+initAttributes();
+}
+
+Central_management_system::~Central_management_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void Central_management_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CENTRAL_MANAGEMENT_SYSTEM_H
+#define CENTRAL_MANAGEMENT_SYSTEM_H
+
+#include <string>
+
+/**
+  * class Central_management_system
+  * 
+  */
+
+class Central_management_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  Central_management_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~Central_management_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void storing ()
+  {
+  }
+
+
+  /**
+   */
+  void update_details ()
+  {
+  }
+
+
+  /**
+   */
+  void central_mangement_system ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  String member_details;
+  String function_details;
+  String details_of_seat_alloction;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of member_details
+   * @param new_var the new value of member_details
+   */
+  void setMember_details (String new_var)   {
+      member_details = new_var;
+  }
+
+  /**
+   * Get the value of member_details
+   * @return the value of member_details
+   */
+  String getMember_details ()   {
+    return member_details;
+  }
+
+  /**
+   * Set the value of function_details
+   * @param new_var the new value of function_details
+   */
+  void setFunction_details (String new_var)   {
+      function_details = new_var;
+  }
+
+  /**
+   * Get the value of function_details
+   * @return the value of function_details
+   */
+  String getFunction_details ()   {
+    return function_details;
+  }
+
+  /**
+   * Set the value of details_of_seat_alloction
+   * @param new_var the new value of details_of_seat_alloction
+   */
+  void setDetails_of_seat_alloction (String new_var)   {
+      details_of_seat_alloction = new_var;
+  }
+
+  /**
+   * Get the value of details_of_seat_alloction
+   * @return the value of details_of_seat_alloction
+   */
+  String getDetails_of_seat_alloction ()   {
+    return details_of_seat_alloction;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_MANAGEMENT_SYSTEM_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "enquiry_officer.h"
+
+// Constructors/Destructors
+//  
+
+enquiry_officer::enquiry_officer () {
+initAttributes();
+}
+
+enquiry_officer::~enquiry_officer () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void enquiry_officer::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef ENQUIRY_OFFICER_H
+#define ENQUIRY_OFFICER_H
+
+#include <string>
+
+/**
+  * class enquiry_officer
+  * 
+  */
+
+class enquiry_officer
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  enquiry_officer ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~enquiry_officer ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void issue_passport ()
+  {
+  }
+
+
+  /**
+   */
+  void renewal_passport ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class_1 verification_of_details;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of verification_of_details
+   * @param new_var the new value of verification_of_details
+   */
+  void setVerification_of_details (new_class_1 new_var)   {
+      verification_of_details = new_var;
+  }
+
+  /**
+   * Get the value of verification_of_details
+   * @return the value of verification_of_details
+   */
+  new_class_1 getVerification_of_details ()   {
+    return verification_of_details;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // ENQUIRY_OFFICER_H

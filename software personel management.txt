@@ -1,0 +1,639 @@
+#include "central_mangement_system.h"
+
+// Constructors/Destructors
+//  
+
+central_mangement_system::central_mangement_system () {
+initAttributes();
+}
+
+central_mangement_system::~central_mangement_system () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void central_mangement_system::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef CENTRAL_MANGEMENT_SYSTEM_H
+#define CENTRAL_MANGEMENT_SYSTEM_H
+
+#include <string>
+
+/**
+  * class central_mangement_system
+  * 
+  */
+
+class central_mangement_system
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  central_mangement_system ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~central_mangement_system ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void leave_taken ()
+  {
+  }
+
+
+  /**
+   */
+  void tax ()
+  {
+  }
+
+
+  /**
+   */
+  void loan ()
+  {
+  }
+
+
+  /**
+   */
+  void salary ()
+  {
+  }
+
+
+  /**
+   */
+  void central_management_system ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string employee_name;
+  int employee_number;
+  string details;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of employee_name
+   * @param new_var the new value of employee_name
+   */
+  void setEmployee_name (string new_var)   {
+      employee_name = new_var;
+  }
+
+  /**
+   * Get the value of employee_name
+   * @return the value of employee_name
+   */
+  string getEmployee_name ()   {
+    return employee_name;
+  }
+
+  /**
+   * Set the value of employee_number
+   * @param new_var the new value of employee_number
+   */
+  void setEmployee_number (int new_var)   {
+      employee_number = new_var;
+  }
+
+  /**
+   * Get the value of employee_number
+   * @return the value of employee_number
+   */
+  int getEmployee_number ()   {
+    return employee_number;
+  }
+
+  /**
+   * Set the value of details
+   * @param new_var the new value of details
+   */
+  void setDetails (string new_var)   {
+      details = new_var;
+  }
+
+  /**
+   * Get the value of details
+   * @return the value of details
+   */
+  string getDetails ()   {
+    return details;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // CENTRAL_MANGEMENT_SYSTEM_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "employee_1.h"
+
+// Constructors/Destructors
+//  
+
+employee_1::employee_1 () {
+initAttributes();
+}
+
+employee_1::~employee_1 () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void employee_1::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef EMPLOYEE_1_H
+#define EMPLOYEE_1_H
+
+#include <string>
+
+/**
+  * class employee_1
+  * 
+  */
+
+class employee_1
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  employee_1 ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~employee_1 ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void leave_taken ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string employee_details;
+  int salary;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of employee_details
+   * @param new_var the new value of employee_details
+   */
+  void setEmployee_details (string new_var)   {
+      employee_details = new_var;
+  }
+
+  /**
+   * Get the value of employee_details
+   * @return the value of employee_details
+   */
+  string getEmployee_details ()   {
+    return employee_details;
+  }
+
+  /**
+   * Set the value of salary
+   * @param new_var the new value of salary
+   */
+  void setSalary (int new_var)   {
+      salary = new_var;
+  }
+
+  /**
+   * Get the value of salary
+   * @return the value of salary
+   */
+  int getSalary ()   {
+    return salary;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // EMPLOYEE_1_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include "HR1.h"
+
+// Constructors/Destructors
+//  
+
+HR1::HR1 () {
+initAttributes();
+}
+
+HR1::~HR1 () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void HR1::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef HR1_H
+#define HR1_H
+
+#include <string>
+
+/**
+  * class HR1
+  * 
+  */
+
+class HR1
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  HR1 ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~HR1 ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void loss_of_pay ()
+  {
+  }
+
+
+  /**
+   */
+  void tax ()
+  {
+  }
+
+
+  /**
+   */
+  void 1 ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  string check_deatails;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of check_deatails
+   * @param new_var the new value of check_deatails
+   */
+  void setCheck_deatails (string new_var)   {
+      check_deatails = new_var;
+  }
+
+  /**
+   * Get the value of check_deatails
+   * @return the value of check_deatails
+   */
+  string getCheck_deatails ()   {
+    return check_deatails;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // HR1_H
