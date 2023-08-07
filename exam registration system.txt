@@ -1,0 +1,348 @@
+
+
+/**
+ * Class reg_website
+ */
+public class reg_website {
+
+  //
+  // Fields
+  //
+
+  private String qualification;
+  private String login_details;
+  private int fee_details;
+  private int exam_dates;
+  
+  //
+  // Constructors
+  //
+  public reg_website () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of qualification
+   * @param newVar the new value of qualification
+   */
+  private void setQualification (String newVar) {
+    qualification = newVar;
+  }
+
+  /**
+   * Get the value of qualification
+   * @return the value of qualification
+   */
+  private String getQualification () {
+    return qualification;
+  }
+
+  /**
+   * Set the value of login_details
+   * @param newVar the new value of login_details
+   */
+  private void setLogin_details (String newVar) {
+    login_details = newVar;
+  }
+
+  /**
+   * Get the value of login_details
+   * @return the value of login_details
+   */
+  private String getLogin_details () {
+    return login_details;
+  }
+
+  /**
+   * Set the value of fee_details
+   * @param newVar the new value of fee_details
+   */
+  private void setFee_details (int newVar) {
+    fee_details = newVar;
+  }
+
+  /**
+   * Get the value of fee_details
+   * @return the value of fee_details
+   */
+  private int getFee_details () {
+    return fee_details;
+  }
+
+  /**
+   * Set the value of exam_dates
+   * @param newVar the new value of exam_dates
+   */
+  private void setExam_dates (int newVar) {
+    exam_dates = newVar;
+  }
+
+  /**
+   * Get the value of exam_dates
+   * @return the value of exam_dates
+   */
+  private int getExam_dates () {
+    return exam_dates;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void verification()
+  {
+  }
+
+
+  /**
+   */
+  public void processing()
+  {
+  }
+
+
+  /**
+   */
+  public void registration()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Class students
+ */
+public class students {
+
+  //
+  // Fields
+  //
+
+  private String name;
+  private String address;
+  private int DOB;
+  private String subjects;
+  private String college;
+  
+  //
+  // Constructors
+  //
+  public students () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  private void setName (String newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  private String getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of address
+   * @param newVar the new value of address
+   */
+  private void setAddress (String newVar) {
+    address = newVar;
+  }
+
+  /**
+   * Get the value of address
+   * @return the value of address
+   */
+  private String getAddress () {
+    return address;
+  }
+
+  /**
+   * Set the value of DOB
+   * @param newVar the new value of DOB
+   */
+  private void setDOB (int newVar) {
+    DOB = newVar;
+  }
+
+  /**
+   * Get the value of DOB
+   * @return the value of DOB
+   */
+  private int getDOB () {
+    return DOB;
+  }
+
+  /**
+   * Set the value of subjects
+   * @param newVar the new value of subjects
+   */
+  private void setSubjects (String newVar) {
+    subjects = newVar;
+  }
+
+  /**
+   * Get the value of subjects
+   * @return the value of subjects
+   */
+  private String getSubjects () {
+    return subjects;
+  }
+
+  /**
+   * Set the value of college
+   * @param newVar the new value of college
+   */
+  private void setCollege (String newVar) {
+    college = newVar;
+  }
+
+  /**
+   * Get the value of college
+   * @return the value of college
+   */
+  private String getCollege () {
+    return college;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void form_filling()
+  {
+  }
+
+
+  /**
+   */
+  public void registration()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Class university_databases
+ */
+public class university_databases {
+
+  //
+  // Fields
+  //
+
+  private int exam_details;
+  private String reg_details;
+  
+  //
+  // Constructors
+  //
+  public university_databases () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of exam_details
+   * @param newVar the new value of exam_details
+   */
+  private void setExam_details (int newVar) {
+    exam_details = newVar;
+  }
+
+  /**
+   * Get the value of exam_details
+   * @return the value of exam_details
+   */
+  private int getExam_details () {
+    return exam_details;
+  }
+
+  /**
+   * Set the value of reg_details
+   * @param newVar the new value of reg_details
+   */
+  private void setReg_details (String newVar) {
+    reg_details = newVar;
+  }
+
+  /**
+   * Get the value of reg_details
+   * @return the value of reg_details
+   */
+  private String getReg_details () {
+    return reg_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void storing_registration()
+  {
+  }
+
+
+}
+
