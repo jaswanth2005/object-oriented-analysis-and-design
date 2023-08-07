@@ -1,0 +1,584 @@
+#include "e_book_management_class_3.h"
+
+// Constructors/Destructors
+//  
+
+e_book_management_class_3::e_book_management_class_3 () {
+initAttributes();
+}
+
+e_book_management_class_3::~e_book_management_class_3 () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void e_book_management_class_3::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+#ifndef E_BOOK_MANAGEMENT_CLASS_3_H
+#define E_BOOK_MANAGEMENT_CLASS_3_H
+
+#include <string>
+
+/**
+  * class e_book_management_class_3
+  * 
+  */
+
+class e_book_management_class_3
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  e_book_management_class_3 ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~e_book_management_class_3 ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void check_avaialbility ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class_6 enter_id;
+  new_class_7 verify_user;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of enter_id
+   * @param new_var the new value of enter_id
+   */
+  void setEnter_id (new_class_6 new_var)   {
+      enter_id = new_var;
+  }
+
+  /**
+   * Get the value of enter_id
+   * @return the value of enter_id
+   */
+  new_class_6 getEnter_id ()   {
+    return enter_id;
+  }
+
+  /**
+   * Set the value of verify_user
+   * @param new_var the new value of verify_user
+   */
+  void setVerify_user (new_class_7 new_var)   {
+      verify_user = new_var;
+  }
+
+  /**
+   * Get the value of verify_user
+   * @return the value of verify_user
+   */
+  new_class_7 getVerify_user ()   {
+    return verify_user;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // E_BOOK_MANAGEMENT_CLASS_3_H
+
+
+
+
+
+
+
+
+
+#include "internet.h"
+
+// Constructors/Destructors
+//  
+
+internet::internet () {
+initAttributes();
+}
+
+internet::~internet () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void internet::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#ifndef INTERNET_H
+#define INTERNET_H
+
+#include <string>
+
+/**
+  * class internet
+  * 
+  */
+
+class internet
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  internet ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~internet ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void verify ()
+  {
+  }
+
+
+  /**
+   */
+  void status ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class enter_id;
+  new_class_1 download_;
+  new_class_2 login;
+  new_class_3 logout;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of enter_id
+   * @param new_var the new value of enter_id
+   */
+  void setEnter_id (new_class new_var)   {
+      enter_id = new_var;
+  }
+
+  /**
+   * Get the value of enter_id
+   * @return the value of enter_id
+   */
+  new_class getEnter_id ()   {
+    return enter_id;
+  }
+
+  /**
+   * Set the value of download_
+   * @param new_var the new value of download_
+   */
+  void setDownload_ (new_class_1 new_var)   {
+      download_ = new_var;
+  }
+
+  /**
+   * Get the value of download_
+   * @return the value of download_
+   */
+  new_class_1 getDownload_ ()   {
+    return download_;
+  }
+
+  /**
+   * Set the value of login
+   * @param new_var the new value of login
+   */
+  void setLogin (new_class_2 new_var)   {
+      login = new_var;
+  }
+
+  /**
+   * Get the value of login
+   * @return the value of login
+   */
+  new_class_2 getLogin ()   {
+    return login;
+  }
+
+  /**
+   * Set the value of logout
+   * @param new_var the new value of logout
+   */
+  void setLogout (new_class_3 new_var)   {
+      logout = new_var;
+  }
+
+  /**
+   * Get the value of logout
+   * @return the value of logout
+   */
+  new_class_3 getLogout ()   {
+    return logout;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // INTERNET_H
+
+
+
+
+
+
+
+
+
+#include "user_1.h"
+
+// Constructors/Destructors
+//  
+
+user_1::user_1 () {
+initAttributes();
+}
+
+user_1::~user_1 () { }
+
+//  
+// Methods
+//  
+
+
+// Accessor methods
+//  
+
+
+// Other methods
+//  
+
+void user_1::initAttributes () {
+}
+
+
+
+
+
+
+
+
+
+
+
+#ifndef USER_1_H
+#define USER_1_H
+
+#include <string>
+
+/**
+  * class user_1
+  * 
+  */
+
+class user_1
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  user_1 ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~user_1 ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void surf_books ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  new_class_4 login;
+  new_class_5 logout;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of login
+   * @param new_var the new value of login
+   */
+  void setLogin (new_class_4 new_var)   {
+      login = new_var;
+  }
+
+  /**
+   * Get the value of login
+   * @return the value of login
+   */
+  new_class_4 getLogin ()   {
+    return login;
+  }
+
+  /**
+   * Set the value of logout
+   * @param new_var the new value of logout
+   */
+  void setLogout (new_class_5 new_var)   {
+      logout = new_var;
+  }
+
+  /**
+   * Get the value of logout
+   * @return the value of logout
+   */
+  new_class_5 getLogout ()   {
+    return logout;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // USER_1_H
