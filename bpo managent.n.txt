@@ -1,0 +1,271 @@
+
+
+/**
+ * Class Central_system_1
+ */
+public class Central_system_1 {
+
+  //
+  // Fields
+  //
+
+  private String store_;
+  private int update;
+  
+  //
+  // Constructors
+  //
+  public Central_system_1 () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of store_
+   * @param newVar the new value of store_
+   */
+  private void setStore_ (String newVar) {
+    store_ = newVar;
+  }
+
+  /**
+   * Get the value of store_
+   * @return the value of store_
+   */
+  private String getStore_ () {
+    return store_;
+  }
+
+  /**
+   * Set the value of update
+   * @param newVar the new value of update
+   */
+  private void setUpdate (int newVar) {
+    update = newVar;
+  }
+
+  /**
+   * Get the value of update
+   * @return the value of update
+   */
+  private int getUpdate () {
+    return update;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void storing()
+  {
+  }
+
+
+  /**
+   */
+  public void updating()
+  {
+  }
+
+
+  /**
+   */
+  public void processing()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+/**
+ * Class Customer_1
+ */
+public class Customer_1 {
+
+  //
+  // Fields
+  //
+
+  private String name;
+  private String purchase_product;
+  
+  //
+  // Constructors
+  //
+  public Customer_1 () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  private void setName (String newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  private String getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of purchase_product
+   * @param newVar the new value of purchase_product
+   */
+  private void setPurchase_product (String newVar) {
+    purchase_product = newVar;
+  }
+
+  /**
+   * Get the value of purchase_product
+   * @return the value of purchase_product
+   */
+  private String getPurchase_product () {
+    return purchase_product;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void ayment()
+  {
+  }
+
+
+  /**
+   */
+  public void feedback()
+  {
+  }
+
+
+  /**
+   */
+  public void customer()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+/**
+ * Class Dealer
+ */
+public class Dealer {
+
+  //
+  // Fields
+  //
+
+  private String name_;
+  private String availability;
+  
+  //
+  // Constructors
+  //
+  public Dealer () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name_
+   * @param newVar the new value of name_
+   */
+  private void setName_ (String newVar) {
+    name_ = newVar;
+  }
+
+  /**
+   * Get the value of name_
+   * @return the value of name_
+   */
+  private String getName_ () {
+    return name_;
+  }
+
+  /**
+   * Set the value of availability
+   * @param newVar the new value of availability
+   */
+  private void setAvailability (String newVar) {
+    availability = newVar;
+  }
+
+  /**
+   * Get the value of availability
+   * @return the value of availability
+   */
+  private String getAvailability () {
+    return availability;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void payment()
+  {
+  }
+
+
+  /**
+   */
+  public void delivery()
+  {
+  }
+
+
+  /**
+   */
+  public void dealer()
+  {
+  }
+
+
+}
+
+
+
