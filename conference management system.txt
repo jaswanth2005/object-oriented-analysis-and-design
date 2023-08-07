@@ -1,0 +1,439 @@
+
+
+/**
+ * Class _
+ */
+public class _ {
+
+  //
+  // Fields
+  //
+
+  
+  //
+  // Constructors
+  //
+  public _ () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  //
+  // Other methods
+  //
+
+}
+
+
+
+
+
+/**
+ * Class _
+ */
+public class _ {
+
+  //
+  // Fields
+  //
+
+  
+  //
+  // Constructors
+  //
+  public _ () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  //
+  // Other methods
+  //
+
+}
+
+
+
+
+
+
+/**
+ * Class Central_management_system
+ */
+public class Central_management_system {
+
+  //
+  // Fields
+  //
+
+  private String member_details;
+  private String function_details;
+  private String details_of_seat_alloction;
+  
+  //
+  // Constructors
+  //
+  public Central_management_system () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of member_details
+   * @param newVar the new value of member_details
+   */
+  private void setMember_details (String newVar) {
+    member_details = newVar;
+  }
+
+  /**
+   * Get the value of member_details
+   * @return the value of member_details
+   */
+  private String getMember_details () {
+    return member_details;
+  }
+
+  /**
+   * Set the value of function_details
+   * @param newVar the new value of function_details
+   */
+  private void setFunction_details (String newVar) {
+    function_details = newVar;
+  }
+
+  /**
+   * Get the value of function_details
+   * @return the value of function_details
+   */
+  private String getFunction_details () {
+    return function_details;
+  }
+
+  /**
+   * Set the value of details_of_seat_alloction
+   * @param newVar the new value of details_of_seat_alloction
+   */
+  private void setDetails_of_seat_alloction (String newVar) {
+    details_of_seat_alloction = newVar;
+  }
+
+  /**
+   * Get the value of details_of_seat_alloction
+   * @return the value of details_of_seat_alloction
+   */
+  private String getDetails_of_seat_alloction () {
+    return details_of_seat_alloction;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void storing()
+  {
+  }
+
+
+  /**
+   */
+  public void update_details()
+  {
+  }
+
+
+  /**
+   */
+  public void central_mangement_system()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/**
+ * Class enquiry_officer
+ */
+public class enquiry_officer {
+
+  //
+  // Fields
+  //
+
+  private new_class_1 verification_of_details;
+  
+  //
+  // Constructors
+  //
+  public enquiry_officer () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of verification_of_details
+   * @param newVar the new value of verification_of_details
+   */
+  private void setVerification_of_details (new_class_1 newVar) {
+    verification_of_details = newVar;
+  }
+
+  /**
+   * Get the value of verification_of_details
+   * @return the value of verification_of_details
+   */
+  private new_class_1 getVerification_of_details () {
+    return verification_of_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void issue_passport()
+  {
+  }
+
+
+  /**
+   */
+  public void renewal_passport()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class member
+ */
+public class member {
+
+  //
+  // Fields
+  //
+
+  private String name;
+  private Integer id;
+  private String proof;
+  
+  //
+  // Constructors
+  //
+  public member () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  private void setName (String newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  private String getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of id
+   * @param newVar the new value of id
+   */
+  private void setId (Integer newVar) {
+    id = newVar;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  private Integer getId () {
+    return id;
+  }
+
+  /**
+   * Set the value of proof
+   * @param newVar the new value of proof
+   */
+  private void setProof (String newVar) {
+    proof = newVar;
+  }
+
+  /**
+   * Get the value of proof
+   * @return the value of proof
+   */
+  private String getProof () {
+    return proof;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void presenting_the_papper_()
+  {
+  }
+
+
+  /**
+   */
+  public void winning_the_price()
+  {
+  }
+
+
+  /**
+   */
+  public void member()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+/**
+ * Class Organiser
+ */
+public class Organiser {
+
+  //
+  // Fields
+  //
+
+  private String member_details;
+  private String function_details;
+  
+  //
+  // Constructors
+  //
+  public Organiser () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of member_details
+   * @param newVar the new value of member_details
+   */
+  private void setMember_details (String newVar) {
+    member_details = newVar;
+  }
+
+  /**
+   * Get the value of member_details
+   * @return the value of member_details
+   */
+  private String getMember_details () {
+    return member_details;
+  }
+
+  /**
+   * Set the value of function_details
+   * @param newVar the new value of function_details
+   */
+  private void setFunction_details (String newVar) {
+    function_details = newVar;
+  }
+
+  /**
+   * Get the value of function_details
+   * @return the value of function_details
+   */
+  private String getFunction_details () {
+    return function_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void allocating_the_seats()
+  {
+  }
+
+
+  /**
+   */
+  public void inviting_the_delecates()
+  {
+  }
+
+
+  /**
+   */
+  public void choosing_the_winner()
+  {
+  }
+
+
+}
+
